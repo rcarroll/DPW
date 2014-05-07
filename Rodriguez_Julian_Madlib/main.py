@@ -53,4 +53,7 @@ def MonsterDefence(a, b, c):
     else:
         print("Congratulations you have slain the "+BEAST+" and you return with a bounty of great spoils!")
 
+#This places the values into the function.
+MonsterDefence(int(STR), int(DEX), int(LUK))
+
 
