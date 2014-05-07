@@ -18,3 +18,11 @@ print "Tell me more about yourself!"
 STR= raw_input("What is your strength value?")
 DEX= raw_input("What is your dexterity value?")
 LUK= raw_input("How much of a wizard are you?(0-3!)")
+
+#Stats Print, Character info plaved, and Beast array
+print "I see, I see... So you have "+STR+" points of STR, "+DEX+" points of DEX and "+LUK+" points LUK."
+
+CharacterInfo= {'Name': NAME, 'Class':CLASS, 'Home':HOME}
+
+BEASTS= ["Dragon", "Ogre", "Litch", "Hell Hound"]
+
