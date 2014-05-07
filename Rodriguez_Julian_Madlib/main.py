@@ -44,4 +44,13 @@ print "Your adventure begins wile you make your way to an old dungeon were you f
 #Variable that will hold your "Skill"
 SKILL= raw_input ("What Skill do you wish to use?")
 
+#Function that will determine the power of your attack
+def MonsterDefence(a, b, c):
+    DPS = (a / b) * c
+    print "You inflict "+str(DPS)+" points of damage!"
+    if DPS <= 9999:
+        print("The "+BEAST+" Has proven more of a challenge than expected, you decide to retreat and return another day.")
+    else:
+        print("Congratulations you have slain the "+BEAST+" and you return with a bounty of great spoils!")
+
 
