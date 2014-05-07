@@ -38,3 +38,7 @@ for i in range(0, int(LUK)):
 
     BEAST= BEASTS[i]
 
+#This prints out what beast you will be facing
+print "Your adventure begins wile you make your way to an old dungeon were you face a mighty "+BEAST+"!"
+
+
