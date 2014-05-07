@@ -26,3 +26,7 @@ CharacterInfo= {'Name': NAME, 'Class':CLASS, 'Home':HOME}
 
 BEASTS= ["Dragon", "Ogre", "Litch", "Hell Hound"]
 
+#Start The Quest
+print "And so your adventure begins, your name is "+CharacterInfo['Name']+" the mighty "+CharacterInfo['Class']+" and you hail from the land of "+CharacterInfo['Home']+"."
+
+
