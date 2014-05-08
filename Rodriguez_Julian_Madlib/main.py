@@ -22,7 +22,7 @@ LUK= raw_input("How much of a wizard are you?(0-3!)")
 #Stats Print, Character info plaved, and Beast array
 print "I see, I see... So you have "+STR+" points of STR, "+DEX+" points of DEX and "+LUK+" points LUK."
 
-CharacterInfo= {'Name': NAME, 'Class':CLASS, 'Home':HOME}
+CharacterInfo= {'Name':NAME, 'Class':CLASS, 'Home':HOME}
 
 BEASTS= ["Dragon", "Ogre", "Litch", "Hell Hound"]
 
@@ -36,7 +36,7 @@ for i in range(0, int(LUK)):
     else:
         LUK == LUK
 
-    BEAST= BEASTS[i]
+    BEAST=BEASTS[i]
 
 #This prints out what beast you will be facing
 print "Your adventure begins wile you make your way to an old dungeon were you face a mighty "+BEAST+"!"
