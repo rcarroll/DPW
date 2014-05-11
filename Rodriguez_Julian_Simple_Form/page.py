@@ -50,61 +50,61 @@ class HTMLPage(object):
 </html>
         '''
 
-        def print_out(self):
+    def print_out(self):
             return self.page_open + self.page_content + self.page_close
 
-        def main(self, VAR1, VAR2, VAR3, VAR4):
-        self.open='''
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome to my page</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <div class="wrap">
+    def main(self, VAR1, VAR2, VAR3, VAR4):
+            self.open='''
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Welcome to my page</title>
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+            <div class="wrap">
 
-            <div>
-                <img src="img/pIcon-01.png">
-            </div>
+                <div>
+                    <img src="img/pIcon-01.png">
+                </div>
 
-            <h1>Welcome</h1>
+                <h1>Welcome</h1>
 
+                <hr>
+
+            '''
+
+            self.full_name_open='''<h1>
+
+            '''
+            self.content1= VAR1+" "+VAR2
+            self.full_name_close='''</h1>
             <hr>
+            '''
 
-        '''
+            self.class_name_open='''
+            <h3>Current Class</h3>
+            <h1>'''
+            self.content2= VAR3
+            self.class_name_close=''' </h1>
+            <hr>
+            '''
 
-        self.full_name_open='''<h1>
+            self.home_name_open='''
+            <h3>Land of Origin</h3>
 
-        '''
-        self.content1= VAR1+" "+VAR2
-        self.full_name_close='''</h1>
-        <hr>
-        '''
+            <h1>'''
+            self.content3= VAR4
+            self.home_name_close=''' </h1>
+            <hr>
+            '''
 
-        self.class_name_open='''
-        <h3>Current Class</h3>
-        <h1>'''
-        self.content2= VAR3
-        self.class_name_close=''' </h1>
-        <hr>
-        '''
+            self.close='''
+            </div>
+        </body>
+    </html>
+            '''
 
-        self.home_name_open='''
-        <h3>Land of Origin</h3>
-
-        <h1>'''
-        self.content3= VAR4
-        self.home_name_close=''' </h1>
-        <hr>
-        '''
-
-        self.close='''
-        </div>
-    </body>
-</html>
-        '''
-
-        return self.open + self.full_name_open + self.content1+ self.full_name_close \
-               + self.class_name_open + self.content2 + self.class_name_close \
-               + self.home_name_open + self.content3 + self.home_name_close + self.close
+            return self.open + self.full_name_open + self.content1+ self.full_name_close \
+                   + self.class_name_open + self.content2 + self.class_name_close \
+                   + self.home_name_open + self.content3 + self.home_name_close + self.close
