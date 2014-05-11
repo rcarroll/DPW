@@ -10,9 +10,12 @@ class MainHandler(webapp2.RequestHandler):
         if self.request.GET:
             fn=self.request.GET['first']
             ln=self.request.GET['last']
-            self.response.write(p.print_out(fn+' '+ln))
+            cls= self.request.GET['class']
+            hmo= self.request.GET['home']
+
+            self.response.write(p.main (fn, ln, cls, hmo))
         else:
-            self.response.write(p.print_out("All of your base are belong to us."))
+            self.response.write(p.print_out())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)

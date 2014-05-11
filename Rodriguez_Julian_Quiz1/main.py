@@ -2,16 +2,13 @@
 
 
 def calc_area(w , h):
-    calc_area(w * h)
+    if w == h:
+        print "this is a square" + str(w * h) + "square feet"
+    else:
+        print "this is a rectangle"
 
-area = calc_area(10 * 10)
-
-if area=1000000000:
-    print "The squeare has an area of" +area+ "."
-elif area=40:
-    print "The rectangle has an area of" +area+ "."
-
-
+calc_area(10, 10)
+calc_area(5, 10)
 
 
 ##Bottles on the wall
