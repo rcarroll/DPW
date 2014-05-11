@@ -52,3 +52,24 @@ class HTMLPage(object):
 
         def print_out(self):
             return self.page_open + self.page_content + self.page_close
+
+        def main(self, VAR1, VAR2, VAR3, VAR4):
+        self.open='''
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to my page</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="wrap">
+
+            <div>
+                <img src="img/pIcon-01.png">
+            </div>
+
+            <h1>Welcome</h1>
+
+            <hr>
+
+        '''
