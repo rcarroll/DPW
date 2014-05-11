@@ -1,4 +1,57 @@
 
 body{
     font-family:helvetica;
+    padding:20px 0 0 0;
+    background-image:url('../img/shattered.png');
+}
+
+.wrap{
+    text-align:center;
+    margin:0 auto;
+    padding:20px;
+    width:400px;
+    background-color:#EDEDED;
+}
+
+h1{
+    color:#253A79;
+    text-transform:uppercase;
+}
+
+h3{
+    color:#658DC9;
+}
+
+.text input{
+    width:300px;
+    height:30px;
+    margin:20px auto;
+    display:block;
+    font-size:20px;
+}
+
+.radios{
+    margin: 20px 0 ;
+}
+
+select{
+    display:block;
+    margin:20px auto;
+    width:300px;
+    height: 34px;
+    color:#FFF;
+    background: #253A79;
+    border:none;
+    border-radius:0;
+    font-size:14px;
+}
+
+.SUBMIT{
+    width:300px;
+    height: 34px;
+    color:#FFF;
+    background: #253A79;
+    border:none;
+    font-size:14px;
+
 }
