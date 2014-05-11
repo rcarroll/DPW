@@ -104,3 +104,7 @@ class HTMLPage(object):
     </body>
 </html>
         '''
+
+        return self.open + self.full_name_open + self.content1+ self.full_name_close \
+               + self.class_name_open + self.content2 + self.class_name_close \
+               + self.home_name_open + self.content3 + self.home_name_close + self.close
