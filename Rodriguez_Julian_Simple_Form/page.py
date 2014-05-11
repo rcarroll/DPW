@@ -73,3 +73,34 @@ class HTMLPage(object):
             <hr>
 
         '''
+
+        self.full_name_open='''<h1>
+
+        '''
+        self.content1= VAR1+" "+VAR2
+        self.full_name_close='''</h1>
+        <hr>
+        '''
+
+        self.class_name_open='''
+        <h3>Current Class</h3>
+        <h1>'''
+        self.content2= VAR3
+        self.class_name_close=''' </h1>
+        <hr>
+        '''
+
+        self.home_name_open='''
+        <h3>Land of Origin</h3>
+
+        <h1>'''
+        self.content3= VAR4
+        self.home_name_close=''' </h1>
+        <hr>
+        '''
+
+        self.close='''
+        </div>
+    </body>
+</html>
+        '''
