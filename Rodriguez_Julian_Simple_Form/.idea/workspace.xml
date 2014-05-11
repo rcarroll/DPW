@@ -34,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="8" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.7590361" vertical-offset="138" max-vertical-offset="885">
+            <state line="32" column="70" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.yaml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="11" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.22853185" vertical-offset="0" max-vertical-offset="722">
               <folding />
             </state>
           </provider>
@@ -73,6 +73,7 @@
       <list>
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/page.py" />
+        <option value="$PROJECT_DIR$/app.yaml" />
       </list>
     </option>
   </component>
@@ -205,13 +206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="747">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="747">
@@ -230,7 +224,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="8" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.7590361" vertical-offset="138" max-vertical-offset="885">
+        <state line="32" column="70" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.22853185" vertical-offset="0" max-vertical-offset="722">
           <folding />
         </state>
       </provider>
