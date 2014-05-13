@@ -43,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.yaml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="17" column="9" selection-start="240" selection-end="240" vertical-scroll-proportion="0.34136546" vertical-offset="0" max-vertical-offset="747">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="231" selection-end="231" vertical-scroll-proportion="0.30120483" vertical-offset="0" max-vertical-offset="945">
+            <state line="15" column="3" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -295,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="14" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
@@ -320,7 +313,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="231" selection-end="231" vertical-scroll-proportion="0.30120483" vertical-offset="0" max-vertical-offset="945">
+        <state line="15" column="3" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="240" selection-end="240" vertical-scroll-proportion="0.34136546" vertical-offset="0" max-vertical-offset="747">
           <folding />
         </state>
       </provider>
