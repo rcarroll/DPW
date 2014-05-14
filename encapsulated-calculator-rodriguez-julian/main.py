@@ -79,7 +79,7 @@ class Point(object):  ###constructer
                 self.__content = '''
                 <div>
 
-                    <h1>{self.NAME}</h1>
+                    <h2>{self.NAME}</h2>
                     <hr>
 
                     <h4>Strength</h4>
@@ -97,10 +97,8 @@ class Point(object):  ###constructer
                     <h4>Constitution</h4>
                     <p>{self.CON}</p>
 
-                    <h4>Total Level</h4>
+                    <h3>Total Level</h3>
                     <p>{self.total}</p>
-
-
 
                 </div>
 
