@@ -4,6 +4,7 @@ import webapp2
 class MainHandler(webapp2.RequestHandler):
 
     def get(self):
+
         home_page = Page()
         home_page.title = "Home Page"
 
