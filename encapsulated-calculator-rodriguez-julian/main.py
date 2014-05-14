@@ -44,6 +44,10 @@ class MainHandler(webapp2.RequestHandler):
         magnar.INT = 5
         magnar.CON = 6
 
+        magnar.total = magnar.STR + magnar.DEX + magnar.INT
+        magnar.update()
+        self.response.write(magnar.print_info())
+
         lina = Point()
         lina.NAME= "Lina Medina"
         lina.STR = 5
@@ -51,7 +55,10 @@ class MainHandler(webapp2.RequestHandler):
         lina.CHR = 3
         lina.INT = 15
         lina.CON = 15
-        # print lina.print_out()
+
+        lina.total = lina.STR + lina.DEX + lina.INT
+        lina.update()
+        self.response.write(lina.print_info())
 
 
 class Point(object):  ###constructer
@@ -133,10 +140,6 @@ class Point(object):  ###constructer
 
     # def print_out(self):
     #     return self.__STR
-
-
-
-
 
 
 
